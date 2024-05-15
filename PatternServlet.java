@@ -59,7 +59,7 @@ public class PatternServlet extends HttpServlet {
             PrintWriter out = response.getWriter();
             out.println("<html>");
             out.println("<body>Error: Missing rows or columns parameter</body>");
-            out.println("<a href=\"Index.html\">Generate Pattern</a>");
+            out.println("<a href=\"index.html\">Generate Pattern</a>");
             out.println("</html>");
 		
             return;
@@ -80,7 +80,7 @@ public class PatternServlet extends HttpServlet {
             out.println("<body>\n");
             out.println("<h2>Error.............</h2>");
             out.println("<h2>Enter proper rows and columns</h2>");
-            out.println("<a href=\"Index.html\">Generate Pattern</a>");
+            out.println("<a href=\"index.html\">Generate Pattern</a>");
             out.println("</html>");
             return;
         }
@@ -142,7 +142,7 @@ public class PatternServlet extends HttpServlet {
         
 
         out.println("</pre>");
-        out.println("<a href=\"Index.html\">Generate Another Pattern</a>");
+        out.println("<a href=\"index.html\">Generate Another Pattern</a>");
         out.println("</body>");
         out.println("</html>");
     }
