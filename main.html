@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css"></link>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body><div class="main">
+<h1>Pattern Generator</h1>
+ <div class="sub"><form action="PatternServlet" method="post">
+    Choose a pattern to generate:
+    <br>
+   <div class="box4"> <select name="pattern">
+        <option value="0">Select the pattern</option>
+        <option value="1">Solid Rectangle</option>
+        <option value="2">Hollow Rectangle</option>
+         <option value="3">Half Pyramid</option>
+          <option value="4">Inverted Half Pyramid</option>
+           <option value="5">Inverted and Rotated Half Pyramid</option>
+            <option value="6">Half Pyramid with Numbers</option>
+             <option value="7"> Inverted Half Pyramid with Numbers</option>
+              <option value="8">Floyd's Triangle</option>
+               <option value="9">Butterfly</option>
+               <option value="10"> Solid Rhombus</option>
+               <option value="11">Number Pyramid</option>
+               <option value="12">Diamond</option>
+    </select></div><br>
+    <div><label for="rows">Rows</label></div>
+   <div> <input type="number" name="rows" id="rows" class="box"></div><br>
+     <div><label for="columns">Columns</label></div>
+    <div> <input type="number" name="columns" id="columns" class="box"></div><br>
+     <div><input type="submit" value="Generate Pattern" class="submit"></div>
+</form></div>
+</div>
+</body>
+</html>

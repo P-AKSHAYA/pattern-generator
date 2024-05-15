@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* Define styles for the pre tag */
+pre {
+    font-family: Arial, sans-serif; /* Use Arial font family */
+    font-size: 40px;
+     /* Default font size */
+    line-height: 2.0; /* Line height for better readability */
+    padding: 50px;
+    display:grid;
+    margin:auto;
+    padding:10px;
+    text-align:center;
+     
+    
+     /* Add padding around the content */
+}
+
+body{
+	height:1500px;
+}
+
+a{
+	font-family: Arial, sans-serif; /* Use Arial font family */
+    font-size: 20px; /* Default font size */
+    line-height: 2.0; /* Line height for better readability */
+    padding: 50px;
+    display:grid;
+    margin:auto;
+    padding:10px;
+    text-align:center;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    background-color: #ff1d73;
+    width:20%;
+    border-radius:30px 30px 30px 30px;
+}
+/* Define a class for larger font size */
+.large-font {
+    font-size: 20px;
+    padding:50px;
+    margin:auto; /* Larger font size */
+}
+
+/* Define a class for larger display size */
+.large-display {
+    width: 100%; /* Expand to fill the available width */
+    max-width: 800px; /* Set maximum width to limit expansion */
+    margin: 70px;
+    padding:50px; /* Center the content horizontally */
+}
+
+body {
+    background-color: rgb(159 251 215 / 15%);
+    padding: 0px;
+}
+h1{
+    font-size:50px;
+    font-weight:bold;
+}
+
+h2{
+	font-size:50px;
+	width:100%;
+	text-align:center;
+	margin:auto;
+	padding:10px;
+	color:black;
+	
+}
+div.main {
+    display: flex;
+    width: 500px;
+    height: 700px;
+    margin: 100px auto;
+    padding: 10px;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(160 3 237);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 30px 30px 400px 400px;
+}
+
+div.sub {
+    display: grid;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+select {
+    height: 70px;
+    padding: 20px;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 30px 30px 30px 30px;
+}
+.box{
+	 height: 15px;
+    padding: 20px;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 30px 30px 30px 30px;
+	
+	
+}
+.submit {
+    padding: 10px;
+    font-weight: bold;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #ff1d73;
+    
+   
+}
